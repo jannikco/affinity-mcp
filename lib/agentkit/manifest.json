@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-affinity",
+      "description": "Connect AI agents to Affinity using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-affinity/SKILL.md": "0e36fdc8e74fb49aeeb3afe09388952b19d347d5b73ba3f1699ff1ac4e9f6865"
+  }
+}
