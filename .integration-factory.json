@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "3c5c431419ad49eb445dc0ff990384748cbf088aac053be043935693bfbefd27",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://developer.affinity.co/llms.txt"
+  ],
+  "id": "affinity-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Affinity MCP setup and connection checker",
+  "description": "Generate Affinity MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "affinity",
+  "appName": "Affinity",
+  "providerDocs": "https://developer.affinity.co/llms.txt",
+  "providerWebsite": "https://www.affinity.co/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://developer.affinity.co/pages/external-api-v2/authentication",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-affinity-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
